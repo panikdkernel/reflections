@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff helped me locate that typo in just seconds rather than 
+opening and comparing both the files line by line which wouldve cost a lot of time and head ache.(diff file1 file2)
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+with the help of such systems we can restore or rollback to any previous working version and get rid of major bugs we introduced in  newer versions without having to compile again and again to check if the program works(git log)
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros
+-changes are small
+-easy to understand
+-easy to manage
+-easy to rollback
+-well structured 
+-logical 
+
+cons
+-sometimes it can be too large
+-forgetting to commit
+-sudden hardware failure and didnt saved (git log)
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+this really heps if the files are related to each other so having a different version of all the files isnt a good deal
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log displays the entire commit history and each commit has a unique id .. comparison betwwen the two commits can be done with the help of git diff by specifying the commit ids
+
+
+How might using version control make you more confident to make changes that could break something?
+
+beacuase I know that I can revert back to any stage and know that when the error is introduced I can continue trying new stuff without worrying that I'll break something 
+(git checkout commitid)
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+i would like to use git for learning and contributing in open source technologies and also for almost all my projects
+(git config)
