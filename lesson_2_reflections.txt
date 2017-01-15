@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+after you run 'git init' a new reporistory is created for that particular directory. this is done because we need to track the files of that directory. (git status, git init) 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+working directory has all untracked files.staging area acts as a intermediate stage before changes are commited to git repository and also tells git to start tracking it.(git add filename, git reset)
