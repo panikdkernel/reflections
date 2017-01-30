@@ -6,3 +6,39 @@ after you run 'git init' a new reporistory is created for that particular direct
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 working directory has all untracked files.staging area acts as a intermediate stage before changes are commited to git repository and also tells git to start tracking it.(git add filename, git reset)
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+ all the files in staging area are the ones that have some changes and need to be commited these files are commited together hence one commit for a logical change (git add, git commit)
+
+
+ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ -when working on a new experimental feature
+ -when adding a new language
+ -when you are not sure if you want this particular feature or not
+ -when collabrating with someone
+
+ with the help of branches all of the above situations can be handled. branches will let us not worry about our main code in the master branch and continue experimenting with the code. when you collab with people branches will help since people can work on their seprate branch without breaking the main ones.(git branch)
+
+
+ How do the diagrams help you visualize the branch structure?
+
+ diagrams help us visualise the structure of commit trees(git log --graph --oneline master coins)
+
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ when we merge two branches all the features included in the two branches are merged into a single branch. While merging two branches git refers that common parent as the original file just like shown in the tuts when we didnt knew if 'A' was supposed to be included in final or not, We were only able to answer that when we knew the original file and then we decided that if that was added or deleted in a particular branch, If it was added we include it in the final branch, if deleted we dont include it in the final branch. considering all above points we represent that as the diagaram the way you do.(git merge master coins {remember to checkout either of the two branches before merging})
+
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ pros
+ -fast
+ -simple
+
+
+ cons
+ -merge conflicts
