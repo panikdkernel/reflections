@@ -13,3 +13,8 @@ maybe if we know that the remote repo is broken and we dont want and if set auto
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 this helps letting the online repo know from which point to add commits in the online repo. also helps us letting know that if we are ahead of the online repo.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+without using github or git one can emial code to each other or share the code in a pen-drive or use a another vcs. It would be easier if all the contributors are working on different files which are completely unrelated to each other. It would be harder to manage if all the files are related.
