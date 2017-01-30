@@ -18,3 +18,10 @@ this helps letting the online repo know from which point to add commits in the o
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 without using github or git one can emial code to each other or share the code in a pen-drive or use a another vcs. It would be easier if all the contributors are working on different files which are completely unrelated to each other. It would be harder to manage if all the files are related.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+-when making a pull request
+-when working on an experimental feature
+-when collaborating with other people 
